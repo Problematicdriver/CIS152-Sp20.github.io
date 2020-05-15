@@ -1,0 +1,99 @@
+@font-face {
+	font-family: GrindAndDeath;
+	src: url(../fonts/GrindAndDeath_Demo.ttf);
+}
+
+@font-face {
+	font-family: Arvo-Regular;
+	src: url(../fonts/Arvo-Regular.ttf);
+}
+
+#logo {
+	width: 40px;
+}
+
+#ins {
+	width: 25px;
+}
+
+#twitter {
+	width: 25px;
+}
+
+.navbar-brand {
+	margin-left: 40px;
+}
+
+#artists {
+	margin-right: 150px;
+	font-family: GrindAndDeath;
+}
+
+#venues {
+	margin-right: 30px;
+	font-family: GrindAndDeath;
+}
+
+.year {
+	margin: 50px;
+	text-align: center;
+}
+
+div>span {
+	font-family: Arvo-Regular;
+}
+
+.year>span {
+	font-family: Arvo-Regular;
+	font-size: 1.5em;
+}
+
+.my-row {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.artist {
+	width: 200px;
+	margin-bottom: 5px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    opacity: .6;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    transition: .6s;
+}
+ 
+.artist:hover {
+	width: 200px;
+	margin-bottom: 5px;
+    filter: grayscale(0%);
+    opacity: 1;
+    box-shadow: 0px 18px 22px -15px rgba(0,0,0,0.3);
+}
+
+.swiper-container {
+	margin-bottom: 20px;
+    width: 100%;
+    height: 400px;
+}
+
+#foot {
+	padding: 30px;
+	padding-top: 70px;
+	font-family: Arvo-Regular;
+	text-align: center;
+}
+
+h3 {
+	padding: 40px;
+	text-align: center;
+	font-family: GrindAndDeath;
+}
+
+.note {
+	font-family: GrindAndDeath;
+	text-align: start;
+	padding-left: 100px;
+}
+

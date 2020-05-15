@@ -1,0 +1,110 @@
+@font-face {
+	font-family: GrindAndDeath;
+	src: url(../fonts/GrindAndDeath_Demo.ttf);
+}
+
+@font-face {
+	font-family: Arvo-Regular;
+	src: url(../fonts/Arvo-Regular.ttf);
+}
+
+#logo {
+	width: 40px;
+}
+
+#ins {
+	width: 25px;
+}
+
+#twitter {
+	width: 25px;
+}
+
+.navbar-brand {
+	margin-left: 40px;
+}
+
+#artists {
+	margin-right: 150px;
+	font-family: GrindAndDeath;
+}
+
+#venues {
+	margin-right: 30px;
+	font-family: GrindAndDeath;
+}
+
+.my-container {
+	margin-top: 30px;
+}
+
+iframe {
+	margin-bottom: 30px;
+}
+
+.news {
+	padding-bottom: 50px;
+	clear: left;
+}
+
+.wheels {
+	height: 200px;
+	float: left;
+	margin-right: 15px;
+}
+
+.title {
+	font-family: GrindAndDeath;
+	font-size: 130%;
+}
+
+.content {
+	font-size: 80%;
+}
+
+div>h3 {
+	text-align: center;
+	font-family: GrindAndDeath;
+}
+
+div>h2 {
+	font-family: Arvo-Regular;
+	padding-bottom: 10px;
+}
+
+.note {
+	text-align: center;
+	font-size: 0.8em
+}
+
+#email {
+	width: 250px;
+}
+
+form {
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#foot {
+	padding-top: 30px;
+	background-color: aliceblue;
+}
+
+button {
+    color: #3b3b3b;
+    background-color: #ff3c56;
+    border: 1px solid #ff3c56 !important;    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 0.25em 1em;
+    border-width: 0;
+    text-align: center;
+	border-radius: 3px;
+}
+
+button>span {
+	padding: 0px;
+	text-align: center;
+    font-size: 15px;
+}
